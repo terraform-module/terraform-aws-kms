@@ -7,7 +7,14 @@
 Here's the gist of using it directly from github.
 
 ```hcl
+module kms_chamber {
+  source = "github.com/terraform-module/terraform-aws-kms.git?ref=v2.0.0"
 
+  alias_name              = "parameter_store_key"
+  description             = "Key to encrypt and decrypt secrets"
+
+  tags = map("USED_BY", "chamber"))
+}
 ```
 
 ## Assumptions

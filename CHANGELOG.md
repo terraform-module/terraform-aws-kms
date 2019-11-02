@@ -3,20 +3,13 @@
 
 
 
-<a name="v0.2.0"></a>
-## [v0.2.0] - 2019-09-15
-
-- update licence
-
-
 <a name="v0.1.0"></a>
-## v0.1.0 - 2019-09-15
+## v0.1.0 - 2019-11-02
 
-- setup project blueprint
-- setup project blueprint
-- setup project blueprint
+- should use this instead of something specific
+- remove env since is not required
+- create base projectt
 - Initial commit
 
 
-[Unreleased]: https://github.com/terraform-module/TODO/compare/v0.2.0...HEAD
-[v0.2.0]: https://github.com/terraform-module/TODO/compare/v0.1.0...v0.2.0
+[Unreleased]: https://github.com/terraform-module/terraform-aws-kms.git/compare/v0.1.0...HEAD
