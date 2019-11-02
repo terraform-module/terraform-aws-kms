@@ -14,11 +14,6 @@ variable "description" {
   type        = string
 }
 
-variable "environment" {
-  description = "The environment this KMS key belongs to"
-  type        = string
-}
-
 variable "key_policy" {
   description = "The policy of the key usage"
   type        = string
