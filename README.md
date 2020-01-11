@@ -3,7 +3,7 @@
 [Terraform module](https://www.terraform.io/docs/providers/aws/r/kms_key.html) to create fully feature KMS
 
 [![](https://img.shields.io/github/license/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
-[Labeler](https://github.com/terraform-module/terraform-aws-kms/workflows/Labeler/badge.svg)
+![](https://github.com/terraform-module/terraform-aws-kms/workflows/Labeler/badge.svg)
 
 ## Usage example
 
