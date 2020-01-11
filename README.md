@@ -47,8 +47,8 @@ module kms_chamber {
 | deletion\_window\_in\_days | The duration in days after which the key is deleted after destruction of the resource | string | `"30"` | no |
 | description | The description of this KMS key | string | n/a | yes |
 | enable\_key\_rotation | \(Optional\) Specifies whether key rotation is enabled. Defaults to false. | bool | `"true"` | no |
+| iam\_policy | The policy of the key usage | string | `"null"` | no |
 | is\_enabled | \(Optional\) Specifies whether the key is enabled. Defaults to true. | bool | `"true"` | no |
-| key\_policy | The policy of the key usage | string | `""` | no |
 | tags | \(Optional\) A mapping of tags to assign to the object. | map | `{}` | no |
 
 ## Outputs
@@ -66,11 +66,11 @@ module kms_chamber {
 
 <!-- START makefile-doc -->
 ```
-$ make help
+$ make help 
 hooks                          Commit hooks setup
 validate                       Validate with pre-commit hooks
 changelog                      Update changelog
-release                        Create release version
+release                        Create release version 
 ```
 <!-- END makefile-doc -->
 

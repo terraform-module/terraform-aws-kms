@@ -1,6 +1,6 @@
 variable "alias_name" {
   description = "The name of the key alias"
-  type        = "string"
+  type        = string
 }
 
 variable "deletion_window_in_days" {
@@ -14,10 +14,10 @@ variable "description" {
   type        = string
 }
 
-variable "key_policy" {
+variable "iam_policy" {
   description = "The policy of the key usage"
   type        = string
-  default     = ""
+  default     = null
 }
 
 variable "is_enabled" {
