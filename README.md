@@ -5,15 +5,13 @@
 [![](https://img.shields.io/github/license/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/v/tag/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/workflow/status/terraform-module/terraform-aws-kms/Validator/master)
+![](https://img.shields.io/github/workflow/status/terraform-module/terraform-aws-kms/Labeler/master)
 ![](https://github.com/terraform-module/terraform-aws-kms/workflows/Labeler/badge.svg)
 [![](https://img.shields.io/issues/github/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/release/terraform-module/terraform-aws-kms.svg)](https://github.com/terraform-module/terraform-aws-kms)
-![](https://img.shields.io/github/v/tag/terraform-module/terraform-aws-kms?style=social)
 [![](https://img.shields.io/github/languages/code-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/repo-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
-
-Test:
-
+![](https://img.shields.io/github/languages/top/terraform-module/terraform-aws-kms?color=green&logo=terraform&logoColor=blue)
 
 ## Usage example
 
