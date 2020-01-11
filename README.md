@@ -4,15 +4,16 @@
 
 [![](https://img.shields.io/github/license/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/v/tag/terraform-module/terraform-aws-kms)
-![](https://img.shields.io/github/workflow/status/terraform-module/terraform-aws-kms/Validator/master)
+[![](https://img.shields.io/github/workflow/status/terraform-module/terraform-aws-kms/Validator/master)](https://github.com/terraform-module/terraform-aws-kms/actions?query=is%3Acompleted)
 ![](https://github.com/terraform-module/terraform-aws-kms/workflows/Validator/badge.svg)
 ![](https://github.com/terraform-module/terraform-aws-kms/workflows/Labeler/badge.svg)
 ![](https://img.shields.io/issues/github/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/issues/terraform-module/terraform-aws-kms)
+![](https://img.shields.io/github/issues-closed/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/languages/code-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/repo-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/languages/top/terraform-module/terraform-aws-kms?color=green&logo=terraform&logoColor=blue)
-![](https://img.shields.io/github/commit-activity/y/terraform-module/terraform-aws-kms)
+![](https://img.shields.io/github/commit-activity/m/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/contributors/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/last-commit/terraform-module/terraform-aws-kms)
 

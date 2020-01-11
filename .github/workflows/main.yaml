@@ -3,15 +3,6 @@ name: Validator
 on: [push, pull_request, issues]
 
 jobs:
-
-  tflint:
-    name: TFLint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: TFLint
-        uses: docker://wata727/tflint
-
   fmt:
     name: Code Format
     runs-on: ubuntu-latest
@@ -33,3 +24,22 @@ jobs:
       - name: Check All Files
         run: |
           pre-commit run --all-files
+
+  minimum:
+    name: Minimum version check
+    runs-on: ubuntu-latest
+    container:
+      image: hashicorp/terraform:0.12.9
+    steps:
+      - uses: actions/checkout@master
+      - name: Validate Code
+        env:
+          TF_WARN_OUTPUT_ERRORS: 1
+        run: |
+          cat > provider.tf <<~EOS
+          provider "aws" {
+            region  = "us-west-1"
+          }
+          EOS
+          terraform init
+          terraform validate -var "alias_name=test"
