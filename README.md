@@ -9,6 +9,9 @@
 [![](https://img.shields.io/github/languages/code-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/repo-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 
+Test:
+[![](https://img.shields.io/github/v/release/:user/:repo?sort=semver)]
+
 ## Usage example
 
 Here's the gist of using it directly from github.
