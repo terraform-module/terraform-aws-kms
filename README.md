@@ -6,6 +6,7 @@
 ![](https://github.com/terraform-module/terraform-aws-kms/workflows/Labeler/badge.svg)
 [![](https://img.shields.io/issues/github/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/release/terraform-module/terraform-aws-kms.svg)](https://github.com/terraform-module/terraform-aws-kms)
+![](https://img.shields.io/github/v/tag/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/languages/code-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 [![](https://img.shields.io/github/repo-size/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 
