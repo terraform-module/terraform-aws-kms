@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Install Deps
         run: |
-          brew install pre-commit terraform-docs terraform
+          brew install pre-commit terraform-docs terraform tflint
       - name: Check All Files
         run: |
           pre-commit run --all-files
