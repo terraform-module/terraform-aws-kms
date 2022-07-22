@@ -2,11 +2,14 @@
 
 [Terraform module](https://www.terraform.io/docs/providers/aws/r/kms_key.html) to create fully feature KMS
 
+---
+
+![](https://github.com/terraform-module/terraform-aws-kms/workflows/release/badge.svg)
+![](https://github.com/terraform-module/terraform-aws-kms/workflows/commit-check/badge.svg)
+![](https://github.com/terraform-module/terraform-aws-kms/workflows/labeler/badge.svg)
+
 [![](https://img.shields.io/github/license/terraform-module/terraform-aws-kms)](https://github.com/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/v/tag/terraform-module/terraform-aws-kms)
-[![](https://img.shields.io/github/workflow/status/terraform-module/terraform-aws-kms/Validator/master)](https://github.com/terraform-module/terraform-aws-kms/actions?query=is%3Acompleted)
-![](https://github.com/terraform-module/terraform-aws-kms/workflows/Validator/badge.svg)
-![](https://github.com/terraform-module/terraform-aws-kms/workflows/Labeler/badge.svg)
 ![](https://img.shields.io/issues/github/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/issues/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/issues-closed/terraform-module/terraform-aws-kms)
@@ -16,14 +19,18 @@
 ![](https://img.shields.io/github/commit-activity/m/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/contributors/terraform-module/terraform-aws-kms)
 ![](https://img.shields.io/github/last-commit/terraform-module/terraform-aws-kms)
+[![Maintenance](https://img.shields.io/badge/Maintenu%3F-oui-green.svg)](https://GitHub.com/terraform-module/terraform-aws-kms/graphs/commit-activity)
+[![GitHub forks](https://img.shields.io/github/forks/terraform-module/terraform-aws-kms.svg?style=social&label=Fork)](https://github.com/terraform-module/terraform-aws-kms)
 
+---
 ## Usage example
 
 Here's the gist of using it directly from github.
 
 ```hcl
 module kms_chamber {
-  source = "github.com/terraform-module/terraform-aws-kms.git?ref=v2.0.0"
+  source  = "terraform-module/kms/aws"
+  version = "2.3.0"
 
   alias_name              = "parameter_store_key"
   description             = "Key to encrypt and decrypt secrets"
@@ -66,11 +73,11 @@ module kms_chamber {
 
 <!-- START makefile-doc -->
 ```
-$ make help 
+$ make help
 hooks                          Commit hooks setup
 validate                       Validate with pre-commit hooks
 changelog                      Update changelog
-release                        Create release version 
+release                        Create release version
 ```
 <!-- END makefile-doc -->
 
@@ -88,3 +95,7 @@ Submit a pull request
 # Authors
 
 Currently maintained by [Ivan Katliarchuk](https://github.com/ivankatliarchuk) and these [awesome contributors](https://github.com/terraform-module/terraform-aws-kms/graphs/contributors).
+
+ ## Terraform Registry
+
+- [Module](https://registry.terraform.io/modules/terraform-module/kms/aws)
