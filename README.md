@@ -35,7 +35,7 @@ module kms_chamber {
   alias_name              = "parameter_store_key"
   description             = "Key to encrypt and decrypt secrets"
 
-  tags = map("USED_BY", "chamber"))
+  tags = tomap({"used_by" = "chamber", "created_by" = "terraform"})
 }
 ```
 
