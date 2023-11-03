@@ -4,7 +4,7 @@ variable "alias_name" {
 }
 
 variable "deletion_window_in_days" {
-  description = "The duration in days after which the key is deleted after destruction of the resource"
+  description = "The duration in days after which the key is deleted after destruction of the resource. Defaults to 30 days."
   type        = string
   default     = 30
 }
@@ -27,7 +27,7 @@ variable "is_enabled" {
 }
 
 variable "enable_key_rotation" {
-  description = "(Optional) Specifies whether key rotation is enabled. Defaults to false."
+  description = "(Optional) Specifies whether key rotation is enabled. Defaults to true."
   type        = bool
   default     = true
 }
